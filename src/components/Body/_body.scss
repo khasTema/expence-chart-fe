@@ -1,0 +1,16 @@
+.app__body {
+    background-color: $Very_pale_orange;
+    @include padding-block;
+
+    & ._heading {
+        margin-top: 0;
+        font-size: 1.5rem;
+        margin-bottom: 1em;
+    }
+
+    & .dynamic_bars {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}

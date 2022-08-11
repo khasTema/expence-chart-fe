@@ -1,0 +1,27 @@
+@import '../src/style/variables';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    font-size: 18px;
+}
+
+.App {
+    background-color: $Cream;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+    @include center-block;
+}
+
+@import '../src/components/AppWrapper/app-wrapper';
+@import '../src/components/Head/head';
+@import '../src/components/Body/body';
+@import '../src/components/Total/total';
+@import '../src/components/ChartBar/chart-bar';
