@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ChartBar(props) {
+function ChartBar({weekDay, amount, color}) {
   return (
     <div className='bar-block'>
-        <div className="tulip">$55.36</div>
-        <div className="bar" style={{height: '45px'}}></div>
-        <span className="_day">mon</span>
+        <div className="tulip">${amount}</div>
+        <div className="bar" style={{height: `${amount + 60}px`, backgroundColor: `${color}`}}></div>
+        <span className="_day">{weekDay}</span>
     </div>
   )
 }
