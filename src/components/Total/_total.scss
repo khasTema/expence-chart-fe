@@ -1,0 +1,26 @@
+.total_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 2px solid $Medium_brown;
+    padding-top: 0.5em;
+
+    & ._heading, 
+    & ._subtext {
+        color: $Medium_brown;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    & ._ammount,
+    & ._percentage {
+        margin: 0
+    }
+
+    & .__prev_month {
+        text-align: right;
+    }
+}
+
+
