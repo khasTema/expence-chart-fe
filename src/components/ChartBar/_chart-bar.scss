@@ -29,6 +29,7 @@
         border-radius: 3px;
         background-color: $Soft_red;
         margin-top: .2em;
+        transition: all 0.5s;
 
         &:hover {
           filter: brightness(120%);
